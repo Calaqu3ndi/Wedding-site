@@ -1,13 +1,11 @@
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/us.png" alt="Us" width="80" height="80">
+  <a>
+    <img src="images/us.jpg" alt="Us" width="225" height="300">
   </a>
 
-  <h3 align="center">Projekt storny ślubnej</h3>
+  <h3 align="center">Projekt strony ślubnej</h3>
 </div>
-<br />
-<br />
 <br />
 
 
