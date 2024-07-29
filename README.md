@@ -4,10 +4,8 @@
     <img src="images/us.jpg" alt="Us" width="225" height="300">
   </a>
 
-  <h3 align="center">Projekt storny ślubnej</h3>
+  <h3 align="center">Projekt strony ślubnej</h3>
 </div>
-<br />
-<br />
 <br />
 
 
