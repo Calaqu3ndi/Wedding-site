@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="images/us.jpg" alt="Us" width="80" height="80">
+    <img src="images/us.jpg" alt="Us" width="225" height="300">
   </a>
 
   <h3 align="center">Projekt storny ślubnej</h3>
