@@ -1,42 +1,108 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 227, 200, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.nav-link {
+  margin-left: 10px;
+  height: 50px;
+  display: inline-block;
+}
+/*  */
+.navbar-collapse{
+  display: flex;
+  /* justify-content: center; */
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
+.navbar {
+  margin: auto;
+  position: relative;
+}
+
+.navbar-label {
+  color: antiquewhite;
+  font-size: 1.2em;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navbar-label:hover {
+  color: rgb(223, 194, 157);
+  font-size: 1.25em;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 1px;
+  border: 1px solid ;
+  padding: 0.4em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #0a0a0ab2;
+  border-color: #213547;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-left: 10px
+  
+}
+.buttonDiv {
+  margin-bottom: 10px;
+  min-height: 50px;
+}
+.btn-ml-10{
+  margin-left: 10px;
+}
+button:hover {
+  border-color: #646cff;
+  transform: scale(1.01);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.center1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  min-height: 100vh; /* Pełna wysokość widoku */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
-  to {
-    transform: rotate(360deg);
+
+  a:hover {
+    color: #747bff;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  button {
+    background-color: #f9f9f9;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

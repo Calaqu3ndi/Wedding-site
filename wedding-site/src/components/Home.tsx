@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-
+import '../App.css'
 const calculateTimeLeft = () => {
-  const weddingDate = new Date('2026-09-12T00:00:00');
+  const weddingDate = new Date('2026-09-12T17:00:00');
   const now = new Date();
   const difference = weddingDate.getTime() - now.getTime();
   let monLabel = "";
@@ -66,10 +66,10 @@ function Home() {
     
     return( 
         <>
-        <div>
-        <h1>Witamy na naszej stronie ślubnej!</h1>
-        <p>Data ślubu: 11 Wrzesień 2026</p>
-        <div>
+        <div className="center1">
+        <h1 >Witamy na naszej stronie ślubnej!</h1>
+        <p>Data ślubu: <b>12 Wrzesień 2026</b></p>
+        <div className="center1">
           <h2>Odliczanie do ślubu:</h2>
           <p>{timeLeft.timeLeft.years} lat, {timeLeft.timeLeft.months} {timeLeft.monLabel}, {timeLeft.timeLeft.days} {timeLeft.dayLabel}, {timeLeft.timeLeft.hours} {timeLeft.hourLabel}, {timeLeft.timeLeft.minutes} minut, {timeLeft.timeLeft.seconds} sekund</p>
         </div>

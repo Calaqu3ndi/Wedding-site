@@ -1,0 +1,10 @@
+[
+    { "id": 1, "name": "Przedmiot1", "isReserved": false },
+    { "id": 2, "name": "Przedmiot2", "isReserved": false },
+    { "id": 3, "name": "Przedmiot3", "isReserved": false },
+    { "id": 4, "name": "Przedmiot4", "isReserved": false },
+    { "id": 5, "name": "Przedmiot5", "isReserved": false },
+    { "id": 6, "name": "Przedmiot6", "isReserved": false },
+    { "id": 7, "name": "Przedmiot7", "isReserved": false }
+  ]
+  
